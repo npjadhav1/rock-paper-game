@@ -1,28 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1 class="game-headin">Rock Paper Scissors</h>
-    <h1 class="user_choice" id="user-choice">your choice: Rock</h1>
-    <h1 class="computer_choice" id="computer-choice">Computer Choice: Rock</h1>
-    <h1 class="result" id="result">Result: Draw</h1>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="game-heading">Rock Paper Scissors</h1>
+    <h1 class="users-choice-container" id="user-choice">Your choice : Rock</h1>
+    <h1 class="computers-choice-container" id="computer-choice">
+      Computers choice : Rock
+    </h1>
+    <h1 class="result-container" id="result">Result : Draw</h1>
 
     <div class="user-options">
-        <button onclick="selectRock()">
-            <img src="images/rock.png" alt="img">
-        </button>
-        <button onclick="selectPaper()">
-            <img src="images/paper.png" alt="img">
-        </button>
-        <button onclick="selectScissors()">
-            <img src="images/scissor.png" alt="img">
-        </button>
+      <button onclick="selectRock()">🪨</button>
+      <button onclick="selectPaper()">📄</button>
+      <button onclick="selectScissors()">✂️</button>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
