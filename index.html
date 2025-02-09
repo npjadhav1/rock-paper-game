@@ -8,18 +8,18 @@
 </head>
 <body>
     <h1 class="game-headin">Rock Paper Scissors</h>
-    <h1 class="user_choice">your choice: Rock</h1>
-    <h1 class="computer_choice">Computer Choice: Rock</h1>
-    <h1 class="result">Result: Draw</h1>
+    <h1 class="user_choice" id="user-choice">your choice: Rock</h1>
+    <h1 class="computer_choice" id="computer-choice">Computer Choice: Rock</h1>
+    <h1 class="result" id="result">Result: Draw</h1>
 
     <div class="user-options">
-        <button>
+        <button onclick="selectRock()">
             <img src="images/rock.png" alt="img">
         </button>
-        <button>
+        <button onclick="selectPaper()">
             <img src="images/paper.png" alt="img">
         </button>
-        <button>
+        <button onclick="selectScissors()">
             <img src="images/scissor.png" alt="img">
         </button>
     </div>
