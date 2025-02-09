@@ -5,4 +5,35 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(59 59 59);
+}
+
+.game-heading {
+    text-align: center;
+    background-color: rgb(52, 52 52);
+}
+h1{
+    text-align: center;
+    color: white;
+    padding: 2vh 0;
+}
+.user-options {
+    display:flex;
+    justify-content: center;
+    gap: 4vh;
+}
+.user-options button{
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid reg(186, 186, 186);
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 4vh 0;
+}
+.user-options button img{
+    height: 200px;
+    width: 200px;
 }
